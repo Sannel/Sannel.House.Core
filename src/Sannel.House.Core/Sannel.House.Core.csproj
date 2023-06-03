@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>Sannel.House</RootNamespace>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Sannel House Core</Title>
+		<Authors>Adam Holt</Authors>
+		<Company>Sannel Software, L.L.C.</Company>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Major>0</Major>
+		<Minor>1</Minor>
+		<Patch>0</Patch>
+		<Version>$(Major).$(Minor).$(Patch)</Version>
+		<AssemblyVersion>$(Major).$(Minor).$(Patch).0</AssemblyVersion>
+		<FileVersion>$(Major).$(Minor).$(Patch).0</FileVersion>
+		<RepositoryUrl>https://github.com/Sannel/Sannel.House.Core</RepositoryUrl>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+		  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+	</ItemGroup>
+
+</Project>
