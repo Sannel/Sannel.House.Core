@@ -10,6 +10,7 @@ public static class Roles
 		public const string SCHEDULE_WRITE = "House.Sprinklers.Schedule.Write";
 		public const string ZONE_READ = "House.Sprinklers.Zone.Read";
 		public const string ZONE_WRITE = "House.Sprinklers.Zone.Write";
+		public const string ZONE_TRIGGER = "House.Sprinklers.Zone.Trigger";
 
 	}
 }

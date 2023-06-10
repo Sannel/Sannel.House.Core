@@ -12,7 +12,7 @@
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<Major>0</Major>
 		<Minor>1</Minor>
-		<Patch>0</Patch>
+		<Patch>1</Patch>
 		<Version>$(Major).$(Minor).$(Patch)</Version>
 		<AssemblyVersion>$(Major).$(Minor).$(Patch).0</AssemblyVersion>
 		<FileVersion>$(Major).$(Minor).$(Patch).0</FileVersion>
